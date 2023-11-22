@@ -1,0 +1,53 @@
+   1  123@senac
+    2  sudo init 0
+    3  id
+    4  sudo
+    5  sudo -i
+    6  sudo apt update
+    7  sudo atp upgrade
+    8  sudo apt upgrade
+    9  sudo apt full-upgrade
+   10  sudo apt dist-upgrade
+   11  sudo apt autoremove
+   12  sudo apt autoclean
+   13  history
+   14  sudo poweroff
+   15  sudo apt update
+   16  sudo apt install git vim python2 python3
+   17  sudo apt install curl
+   18  sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+   19  echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+   20  sudo apt update
+   21  sudo apt install brave-browser
+   22  sudo dpkg -i wps* .deb
+   23  history
+   24  ls
+   25  sudo dpkg -i wps wps-office_11.1.0.11708.XA_amd64.deb wps-office_11.1.0.11708.XA_amd64.deb 
+   26  sudo dpkg -i wps-office_11.1.0.11708.XA_amd64.deb 
+   27  sudo apt update
+   28  sudo apt upgrade
+   29  sudo apt full-upgrade
+   30  sudo apt dist-upgrade
+   31  sudo apt autoremove
+   32  sudo apt autoclean
+   33  history
+   34  cd Documentos/SENAC/tat/
+   35  ls -lh
+   36  cat
+   37  cat senac.txt 
+   38  cat -n senac.txt 
+   39  echo Técnico em Informática
+   40  echo Técnico em Informática >> senac.txt 
+   41  ls -lh
+   42  cat -n senac.txt 
+   43* 
+   44  history
+   45  head
+   46  head /etc/services 
+   47  head -n20/etc/services
+   48  head -n20 /etc/services 
+   49  cat -n /etc/services | head -n20
+   50  tail /etc/services
+   51  cat -n /etc/services | tail -n20
+   52  cat -n /etc/services | head -n200| tail -n101
+   53  history
