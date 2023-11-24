@@ -1,0 +1,178 @@
+1  123@senac
+    2  sudo init 0
+    3  id
+    4  sudo
+    5  sudo -i
+    6  sudo apt update
+    7  sudo atp upgrade
+    8  sudo apt upgrade
+    9  sudo apt full-upgrade
+   10  sudo apt dist-upgrade
+   11  sudo apt autoremove
+   12  sudo apt autoclean
+   13  history
+   14  sudo poweroff
+   15  sudo apt update
+   16  sudo apt install git vim python2 python3
+   17  sudo apt install curl
+   18  sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+   19  echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+   20  sudo apt update
+   21  sudo apt install brave-browser
+   22  sudo dpkg -i wps* .deb
+   23  history
+   24  ls
+   25  sudo dpkg -i wps wps-office_11.1.0.11708.XA_amd64.deb wps-office_11.1.0.11708.XA_amd64.deb 
+   26  sudo dpkg -i wps-office_11.1.0.11708.XA_amd64.deb 
+   27  sudo apt update
+   28  sudo apt upgrade
+   29  sudo apt full-upgrade
+   30  sudo apt dist-upgrade
+   31  sudo apt autoremove
+   32  sudo apt autoclean
+   33  history
+   34  cd Documentos/SENAC/tat/
+   35  ls -lh
+   36  cat
+   37  cat senac.txt 
+   38  cat -n senac.txt 
+   39  echo Técnico em Informática
+   40  echo Técnico em Informática >> senac.txt 
+   41  ls -lh
+   42  cat -n senac.txt 
+   43  history
+   44  head
+   45  head /etc/services 
+   46  head -n20/etc/services
+   47  head -n20 /etc/services 
+   48  cat -n /etc/services | head -n20
+   49  tail /etc/services
+   50  cat -n /etc/services | tail -n20
+   51  cat -n /etc/services | head -n200| tail -n101
+   52  history
+   53  sudo shutdown -h now
+   54  sudo apt update
+   55  sudo apt upgrade
+   56  sudo apt full-upgrade
+   57  sudo apt dist-upgrade
+   58  sudo apt autoremove
+   59  sudo apt autoclean
+   60  ls
+   61  cd documentos 
+   62  cd documento/
+   63  cd documnetos/
+   64  cd documentos/
+   65  ls
+   66  cd Documentos/
+   67  ls
+   68  rm -Rfv */
+   69  ls
+   70  mk dir SENAC
+   71  mkdir SENAC
+   72  cd SENAC
+   73  mkdir tat/ bra/ pen
+   74  ls
+   75  cd tat
+   76  mkdir tei.txt
+   77  ls
+   78  cd SENAC
+   79  cd ..
+   80  cd bra
+   81  mkdir tst.txt
+   82  ls
+   83  cd ..
+   84  cd pen
+   85  mkdir tae.txt
+   86  ls
+   87  cd ..
+   88  mkdir SESC
+   89  cd SESC
+   90  mkdir bel/ san/ ita/
+   91  ls
+   92  cd bel
+   93  mkdir artes.txt
+   94  ls
+   95  cd ..
+   96  cd san
+   97  mkdir leitura.txt
+   98  ls
+   99  cd ..
+  100  cd ita
+  101  mkdir musica.txt
+  102  ls
+  103  cd ..
+  104  ls
+  105  cd ..
+  106  mkdir SENAI
+  107  cd SENAI
+  108  mkdir bra/ cor/ gua/
+  109  cd ..
+  110  cd  SENAC
+  111  cd tat
+  112  touch tei.txt
+  113  cd ..
+  114  cd bra
+  115  touch tst.txt
+  116  cd ..
+  117  cd pen
+  118  touch tae.txt
+  119  cd ..
+  120  cd SESC
+  121  ls
+  122  cd bel
+  123  touch artes.txt
+  124  cd ..
+  125  cd ita
+  126  touch musica.txt
+  127  cd ..
+  128  cd san
+  129  touch leitura.txt
+  130  cd ..
+  131  cd SENAI
+  132  ls
+  133  cd bra
+  134  touch fresa.txt
+  135  cd ..
+  136  cd cor
+  137  touch torno.txt
+  138  cd ..
+  139  cd gua
+  140  touch solda.txt
+  141  cd ..
+  142  mkdrir SESI
+  143  mkdir SESI
+  144  cd SESI
+  145  mkdir bel/ car/ bra/
+  146  cd bel
+  147  touch fund1.txt
+  148  cd ..
+  149  cd car
+  150  touch fund2.txt
+  151  cd ..
+  152  cd bra
+  153  touch tec.txt
+  154  cd ..
+  155  ls
+  156  touch senac.txt
+  157  ls
+  158  cp -v senac.txt senai.txt
+  159  ls
+  160  cp -v senai.txt cesi.txt
+  161  ls
+  162  mv -v cesi.txt sesi.txt
+  163  ls
+  164  mv -v senac.txt senai.txt sesi.txt Documentos/
+  165  ls
+  166  cd Documentos
+  167  ls
+  168  touch sesc.txt
+  169  ls
+  170  mv -v senac.txt SENAC
+  171  ls
+  172  mv -v senai.txt SENAI
+  173  mv -v sesc.txt SESC
+  174  ls
+  175  mv -v sesi.txt SESI
+  176  ls
+  177  cd ..
+  178  history
